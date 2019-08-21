@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mac Calendar</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+
+<body>
+    <!-- Mac日历模拟 -->
+    <div id="calendar">
+        <div class="bar">
+            <div class="btn y-center">
+                <span class="orange"></span>
+                <span class="yellow"></span>
+                <span class="green"></span>
+            </div>
+            <div class="bar-box y-center calen">
+                <span>日历</span>
+            </div>
+            <div class="bar-box y-center add">
+                <svg t="1565941276742" class="icon add-svg" viewBox="0 0 1024 1024" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" p-id="1987" width="15" height="15">
+                    <path
+                        d="M938.116981 485.111606h-409.793201V75.319429c0-13.715373-11.120268-24.835641-24.835641-24.835641-13.715373 0-24.835641 11.120268-24.835641 24.835641V485.111606H68.859297c-13.715373 0-24.835641 11.120268-24.835641 24.835642s11.120268 24.835641 24.835641 24.835641h409.792177v409.7932c0 13.715373 11.120268 24.835641 24.835642 24.835642 13.715373 0 24.835641-11.120268 24.835641-24.835642V534.783913h409.792177c13.715373 0 24.835641-11.120268 24.835642-24.835642S951.832354 485.111606 938.116981 485.111606z"
+                        p-id="1988" fill="#4e4d4e"></path>
+                </svg>
+            </div>
+            <div class="bar-box y-center bar-menu">
+                <div><span>日</span></div>
+                <div><span>周</span></div>
+                <div class="current-menu"><span>月</span></div>
+                <div class="clear-border-right"><span>年</span></div>
+            </div>
+            <input type="search" class="bar-box y-center search">
+            <div class="bar-box y-center search">
+                <div class="s-text">
+                    <svg t="1565948270747" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="2959" width="16" height="16">
+                        <path
+                            d="M963.584 934.912L711.68 683.008C772.096 615.424 808.96 527.36 808.96 430.08 808.96 221.184 638.976 51.2 430.08 51.2S51.2 221.184 51.2 430.08s169.984 378.88 378.88 378.88c97.28 0 185.344-36.864 252.928-97.28l251.904 251.904c4.096 4.096 9.216 6.144 14.336 6.144s10.24-2.048 14.336-6.144c8.192-8.192 8.192-20.48 0-28.672zM430.08 768C243.712 768 92.16 616.448 92.16 430.08S243.712 92.16 430.08 92.16s337.92 151.552 337.92 337.92-151.552 337.92-337.92 337.92z"
+                            p-id="2960"></path>
+                    </svg>
+                    <span>搜索</span>
+                </div>
+            </div>
+            <!-- <div class="bar-box y-center search">
+                <input type="search" class="">
+                <div class="s-text">
+                    <svg t="1565948270747" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" p-id="2959" width="16" height="16">
+                        <path
+                            d="M963.584 934.912L711.68 683.008C772.096 615.424 808.96 527.36 808.96 430.08 808.96 221.184 638.976 51.2 430.08 51.2S51.2 221.184 51.2 430.08s169.984 378.88 378.88 378.88c97.28 0 185.344-36.864 252.928-97.28l251.904 251.904c4.096 4.096 9.216 6.144 14.336 6.144s10.24-2.048 14.336-6.144c8.192-8.192 8.192-20.48 0-28.672zM430.08 768C243.712 768 92.16 616.448 92.16 430.08S243.712 92.16 430.08 92.16s337.92 151.552 337.92 337.92-151.552 337.92-337.92 337.92z"
+                            p-id="2960"></path>
+                    </svg>
+                    <span>搜索</span>
+                </div>
+            </div> -->
+        </div>
+        <div class="weeks">
+            <div class="week-cur">
+            </div>
+            <div class="week-texts">
+                
+            </div>
+        </div>
+        <div class="mains">
+        </div>
+    </div>
+    </div>
+
+    <script src="calendar.js"></script>
+</body>
+
+</html>
